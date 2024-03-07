@@ -1,0 +1,6 @@
+train: C:/Users/ASUS/Desktop/notes/coding_projects/yolov8_cutsom/train
+val: C:/Users/ASUS/Desktop/notes/coding_projects/yolov8_cutsom/val
+
+nc: 1
+
+names: ["bee"]
