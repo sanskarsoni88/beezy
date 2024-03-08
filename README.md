@@ -5,13 +5,14 @@ Beezy was an innovative solution to monitoring bee hive environmental factors an
 
 ## Automated varroa mite testing
 Two YOLO models were trained: One was trained to detect bees in an image. Second was used to detect varroa mites from the detected bees. Here is how the pipeline worked:
+![Alt](/algorithm.png)
+_Fig: Algorithm for calculating varroa mite infestation rate_ <br>
 
 1. PiCam takes pictures of the hive when testing is requested.
 2. Pictures are run through the first model. Bee objects are detected, cropped out and saved.
 3. The saved bee images are run through the second model which detects varroa mites present in these images.
 4. The infestation rate is calculated using the number of bees and varroa mites detected.<br><br>
-![Alt](/algorithm.png)
-_Fig: Algorithm for calculating varroa mite infestation rate_ <br>
+
 ![Alt](/bee_detection.png)
 _Fig: Output of first model_ <br>
 ![Alt](/Varroa_Mite_detection.jpg)
