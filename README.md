@@ -1,4 +1,4 @@
-# BEEZY: An innovative approach to redesigning Beehives for better monitoring of the colony
+# BEEZY: An innovative approach to redesigning beehives for better monitoring of the colony
 
 Beezy was an innovative solution to monitoring bee hive environmental factors and colony health. This was a smart redesign of the traditional beehive that got a feature on the [UBC website](https://engineering.ubc.ca/spotlight/student-project/beezy-remotely-monitoring-beehives-to-detect-and-prevent-infestations). The two primary functions were:
 
