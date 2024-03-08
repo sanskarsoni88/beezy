@@ -9,10 +9,10 @@ Two YOLO models were trained: One was trained to detect bees in an image. Second
 1. PiCam takes pictures of the hive when testing is requested.
 2. Pictures are run through the first model. Bee objects are detected, cropped out and saved.
 3. The saved bee images are run through the second model which detects varroa mites present in these images.
-4. The infestation rate is calculated using the number of bees and varroa mites detected.
-_Fig: Algorithm for calculating varroa mite infestation rate_
-_Fig: Output of first model_
-_Fig: Output of second model_
+4. The infestation rate is calculated using the number of bees and varroa mites detected.<br><br>
+<div align="center> Fig: Algorithm for calculating varroa mite infestation rate</div><br>
+<div align="center>Fig: Output of first model</div><br>
+<div align="center>_Fig: Output of second model_</div><br>
 
 I created a simple GUI that the user could use to monitor the metrics and run tests whenever they choose to.
 _Fig: GUI_
