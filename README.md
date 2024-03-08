@@ -4,7 +4,7 @@ Beezy was an innovative solution to monitoring bee hive environmental factors an
 2. **Automation of the calculation of the varroa mite infestation rate** in a hive. I created a deep learning pipeline that took images from a camera mounted on the hive and estimated the manual process of determining varroa mite infestation rates with high accuracy.<br>
 
 ## Automated varroa mite testing
-Two YOLO models were trained: One was trained to detect bees in an image. Second was used to detect varroa mites from the detected bees. Here is how the pipeline worked:
+Two YOLO models were trained: One was trained to detect bees in an image. Second was used to detect varroa mites from the detected bees. Here is how the pipeline worked:<br>
 ![Alt](/algorithm.png)
 _Fig: Algorithm for calculating varroa mite infestation rate_ <br>
 
@@ -13,11 +13,11 @@ _Fig: Algorithm for calculating varroa mite infestation rate_ <br>
 3. The saved bee images are run through the second model which detects varroa mites present in these images.
 4. The infestation rate is calculated using the number of bees and varroa mites detected.<br><br>
 
-![Alt](/bee_detection.png)
+![Alt](/bee_detection.png)<br>
 _Fig: Output of first model_ <br>
-![Alt](/Varroa_Mite_detection.jpg)
+![Alt](/Varroa_Mite_detection.jpg)<br>
 _Fig: Output of second model_ <br>
 
-I created a simple GUI that the user could use to monitor the metrics and run tests whenever they choose to.
-![Alt](/GUI.png)
+I created a simple GUI that the user could use to monitor the metrics and run tests whenever they choose to.<br>
+![Alt](/GUI.png)<br>
 _Fig: GUI_
