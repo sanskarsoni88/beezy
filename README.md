@@ -1,6 +1,6 @@
 # BEEZY: An innovative approach to redesigning Beehives for better monitoring of the colony
 
-Beezy was an innovative solution to monitoring bee hive environmental factors and colony health. This was a smart redesign of the traditional beehive. The two primary functions were:
+Beezy was an innovative solution to monitoring bee hive environmental factors and colony health. This was a smart redesign of the traditional beehive that got a feature on the [UBC website](https://engineering.ubc.ca/spotlight/student-project/beezy-remotely-monitoring-beehives-to-detect-and-prevent-infestations). The two primary functions were:
 
 1. **Tracking essential environmental metrics** that can be telling of the health of the hive. Temperature sensors, humidity sensors, and CO2 sensors were placed on the roof of the hive and connected to an ESP32. The ESP32 read from these sensors in a timely fashion and transferred this data to a Raspberry Pi using UART communication protocol.
 2. **Automation of the calculation of the varroa mite infestation rate** in a hive. I created a deep learning pipeline that took images from a camera mounted on the hive and estimated the manual process of determining varroa mite infestation rates with high accuracy.
