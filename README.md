@@ -36,4 +36,6 @@ I created a simple GUI that the user could use to monitor the metrics and run te
 <div align="center">
   <img src="/GUI.png" alt="GUI"><br>
   <em>Fig: GUI</em>
-</div>
+</div><br><br>
+
+Here is a link to the [Final Report](https://drive.google.com/file/d/1C9szNUPga6EwcM8YAbFXn-X4DOJMqWRc/view?usp=sharing).
