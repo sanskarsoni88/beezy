@@ -10,9 +10,13 @@ Two YOLO models were trained: One was trained to detect bees in an image. Second
 2. Pictures are run through the first model. Bee objects are detected, cropped out and saved.
 3. The saved bee images are run through the second model which detects varroa mites present in these images.
 4. The infestation rate is calculated using the number of bees and varroa mites detected.<br><br>
-<div align="center> Fig: Algorithm for calculating varroa mite infestation rate</div><br>
-<div align="center>Fig: Output of first model</div><br>
-<div align="center>_Fig: Output of second model_</div><br>
+[Alt](/algorithm.png)
+_Fig: Algorithm for calculating varroa mite infestation rate_ <br>
+[Alt](/bee_detection.png)
+_Fig: Output of first model_ <br>
+[Alt](/Varroa Mite Detection.png)
+_Fig: Output of second model_ <br>
 
 I created a simple GUI that the user could use to monitor the metrics and run tests whenever they choose to.
+[Alt](/GUI.png)
 _Fig: GUI_
