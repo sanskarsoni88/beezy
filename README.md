@@ -14,7 +14,7 @@ Two YOLO models were trained: One was trained to detect bees in an image. Second
 _Fig: Algorithm for calculating varroa mite infestation rate_ <br>
 ![Alt](/bee_detection.png)
 _Fig: Output of first model_ <br>
-![Alt](/Varroa Mite detection.png)
+![Alt](/Varroa Mite detection.jpg)
 _Fig: Output of second model_ <br>
 
 I created a simple GUI that the user could use to monitor the metrics and run tests whenever they choose to.
