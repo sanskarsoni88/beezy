@@ -9,25 +9,27 @@ Beezy was an innovative solution to monitoring bee hive environmental factors an
 
 Two YOLO models were trained: One was trained to detect bees in an image. The second was used to detect varroa mites from the detected bees. Here is how the pipeline worked:
 
+
+1. PiCam takes pictures of the hive when testing is requested.
+2. Pictures are run through the first model. Bee objects are detected, cropped out, and saved.<br>
+<div align="center">
+  <img src="/bee_detection.png" alt="Output of first model"><br>
+  <em>Fig: Output of first model</em><br><br>
+</div>
+3. The saved bee images are run through the second model which detects varroa mites present in these images.<br>
+<div align="center">
+  <img src="/Varroa_Mite_detection.jpg" alt="Output of second model"><br>
+  <em>Fig: Output of second model</em><br><br>
+</div>
+4. The infestation rate is calculated using the number of bees and varroa mites detected.<br>
 <div align="center">
   <img src="/algorithm.png" alt="Algorithm for calculating varroa mite infestation rate"><br>
   <em>Fig: Algorithm for calculating varroa mite infestation rate</em><br><br>
 </div>
 
-1. PiCam takes pictures of the hive when testing is requested.
-2. Pictures are run through the first model. Bee objects are detected, cropped out, and saved.
-3. The saved bee images are run through the second model which detects varroa mites present in these images.
-4. The infestation rate is calculated using the number of bees and varroa mites detected.
 
-<div align="center">
-  <img src="/bee_detection.png" alt="Output of first model"><br>
-  <em>Fig: Output of first model</em><br><br>
-</div>
 
-<div align="center">
-  <img src="/Varroa_Mite_detection.jpg" alt="Output of second model"><br>
-  <em>Fig: Output of second model</em><br><br>
-</div>
+
 
 I created a simple GUI that the user could use to monitor the metrics and run tests whenever they choose to.
 
